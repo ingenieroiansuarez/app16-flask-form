@@ -30,20 +30,29 @@
                     <br>
 
                     <div class="btn-group-vertical" id="occupation">
-                        <input class="btn-check-input" type="radio" id="employed"  name="occupation" value="employed" required >
-                        <label class="btn btn-outline-secondary" > Employed </label>
+                        <input class="btn-check form-check-input" type="radio" id="employed"  name="occupation" value="employed" required >
+                        <label class="btn btn-outline-secondary" for="employed" > Employed </label>
 
-                        <input class="btn-check-input" type="radio" id=unemployed"  name="occupation" value="unemployed" required >
-                        <label class="btn btn-outline-secondary" > Unemployed </label>
+                        <input class="btn-check form-check-input" type="radio" id=unemployed"  name="occupation" value="unemployed" required >
+                        <label class="btn btn-outline-secondary" for="employed" > Unemployed </label>
 
-                        <input class="btn-check-input" type="radio" id=Self-employed"  name="occupation" value="self-employed" required >
-                        <label class="btn btn-outline-secondary" > Self-employed </label>
+                        <input class="btn-check form-check-input" type="radio" id=Self-employed"  name="occupation" value="self-employed" required >
+                        <label class="btn btn-outline-secondary" for="employed"> Self-employed </label>
 
-                        <input class="btn-check-input" type="radio" id=student"  name="occupation" value="student" required >
-                        <label class="btn btn-outline-secondary" > Student </label>
+                        <input class="btn-check form-check-input" type="radio" id=student"  name="occupation" value="student" required >
+                        <label class="btn btn-outline-secondary" for="employed"> Student </label>
                     </div>
                 </div>
-                <button class="btn btn-secondary mb-4" type="submit" id="submit" name="submit">Submit</button>
+                <button class="btn btn-secondary mb-4" type="submit">Submit</button>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <div class="alert alert-success">
+                    {% for message in messages %}
+                        {{message}}
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endwith %}
 
             </form>
         </div>
