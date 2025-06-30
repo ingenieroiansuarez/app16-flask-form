@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0202bda6-f763-4dfb-a328-8c2a2c1ab37e" name="Changes" comment="add email notification for form submissions and configure Flask-Mail">
-      <change beforePath="$PROJECT_DIR$/.idea/app16-flask-form.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app16-flask-form.iml" afterDir="false" />
+    <list default="true" id="0202bda6-f763-4dfb-a328-8c2a2c1ab37e" name="Changes" comment="refactor job application form layout and improve accessibility; add .venv exclusion in project files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +45,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/IAN/PycharmProjects/app16-flask-form/templates"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IAN\PycharmProjects\app16-flask-form\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IAN\PycharmProjects\app16-flask-form\templates" />
     </key>
@@ -152,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751182451141</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor job application form layout and improve accessibility; add .venv exclusion in project files">
+      <option name="closed" value="true" />
+      <created>1751187492114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751187492114</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +174,7 @@
     <MESSAGE value="add date parsing and form submission to database in job application" />
     <MESSAGE value="add flash message for successful form submission and fix radio button labels in job application form" />
     <MESSAGE value="add email notification for form submissions and configure Flask-Mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="add email notification for form submissions and configure Flask-Mail" />
+    <MESSAGE value="refactor job application form layout and improve accessibility; add .venv exclusion in project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor job application form layout and improve accessibility; add .venv exclusion in project files" />
   </component>
 </project>
